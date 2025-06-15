@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>🥂 Secret Access — Real Women Inside</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet"/>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W93YVEZ0KQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W93YVEZ0KQ');
+  </script>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Plus Jakarta Sans',sans-serif; }
+    body {
+      min-height:100vh; color:#fff;
+      background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+      overflow-x:hidden;
+    }
+
+    .hero {
+      position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center;
+      min-height:100vh; text-align:center; padding:20px;
+    }
+    .hero::before {
+      content:""; position:absolute; inset:0;
+      background:url('https://photos.xgroovy.com/contents/albums/sources/664000/664428/731147.jpg') center/cover no-repeat;
+      opacity:0.15; filter:blur(8px);
+    }
+
+    h1 {
+      position:relative; z-index:1;
+      font-size:3rem; font-weight:800;
+      background:linear-gradient(90deg, #ff4da6, #ff9a00);
+      -webkit-background-clip:text; color:transparent;
+      animation: textGlow 3s ease-in-out infinite alternate;
+    }
+    @keyframes textGlow {
+      from { text-shadow:0 0 8px rgba(255,77,166,0.6),0 0 12px rgba(255,154,0,0.6); }
+      to { text-shadow:0 0 20px rgba(255,77,166,1),0 0 30px rgba(255,154,0,1); }
+    }
+
+    .subtitle {
+      position:relative; z-index:1;
+      margin-top:1rem; font-size:1.2rem; opacity:0;
+      animation:fadeInUp 1s 0.5s forwards;
+    }
+
+    .cta {
+      position:relative; z-index:1; margin-top:2rem;
+      padding:20px 45px;
+      font-size:1.2rem; font-weight:600;
+      color:#111;
+      background:rgba(255,255,255,0.15);
+      border:2px solid rgba(255,255,255,0.3);
+      border-radius:50px;
+      backdrop-filter:blur(12px);
+      box-shadow:0 8px 20px rgba(0,0,0,0.5), inset 0 0 10px rgba(255,255,255,0.1);
+      cursor:pointer;
+      transition:all 0.3s ease;
+      outline:none;
+    }
+    .cta:hover {
+      background:rgba(255,77,166,0.9);
+      color:#fff;
+      box-shadow:0 12px 30px rgba(255,77,166,0.6), inset 0 0 15px rgba(255,255,255,0.2);
+      transform:translateY(-4px);
+    }
+    .cta:active {
+      transform:translateY(-2px);
+      box-shadow:0 6px 15px rgba(255,77,166,0.4);
+    }
+
+    .msg-confirm {
+      margin-top:1.5rem; opacity:0;
+      font-size:1rem; color:#ffce00;
+      animation:fadeIn 1s 0.5s forwards;
+    }
+
+    .features {
+      margin-top:3.5rem; width:100%; max-width:640px;
+      display:grid; gap:20px;
+      grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .feature {
+      background:rgba(255,255,255,0.08);
+      border-radius:15px; padding:20px;
+      backdrop-filter:blur(6px);
+      transition:transform 0.3s ease;
+      opacity:0; animation:fadeIn 1s forwards;
+    }
+    .feature:nth-child(1){animation-delay:0.6s;}
+    .feature:nth-child(2){animation-delay:0.8s;}
+    .feature:nth-child(3){animation-delay:1s;}
+    .feature:nth-child(4){animation-delay:1.2s;}
+
+    .feature:hover{transform:translateY(-8px);}
+    .feature h3{margin-bottom:8px; font-size:1.1rem; font-weight:600; color:#ff9a00;}
+    .feature p{font-size:0.9rem; line-height:1.5;}
+
+    @keyframes fadeInUp {
+      to { opacity:1; transform:translateY(0); }
+      from { opacity:0; transform:translateY(20px); }
+    }
+    @keyframes fadeIn {
+      to { opacity:1; }
+      from { opacity:0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>🔓 Secret Access to Real Women</h1>
+    <p class="subtitle">Verified profiles. Zero bots. A private space where real connections happen fast.</p>
+    <button class="cta" onclick="location.href='https://bggcdje.postsmrtofr.com/s/63dc27b8c8606'">
+      Get Instant Free Access
+    </button>
+    <p class="msg-confirm">⚠️ Email confirmation required to activate your VIP profile.</p>
+
+    <div class="features">
+      <div class="feature"><h3>🔥 Verified Only</h3><p>No fake accounts. Real women, real conversations.</p></div>
+      <div class="feature"><h3>🛡️ Fully Encrypted</h3><p>Your privacy is our priority. 100% secure login & chats.</p></div>
+      <div class="feature"><h3>🚀 Quick Sign Up</h3><p>Less than 60 seconds to start browsing and chatting.</p></div>
+      <div class="feature"><h3>📈 VIP Newcomer Boost</h3><p>Get featured for the first 24h to get seen first.</p></div>
+    </div>
+  </div>
+</body>
+</html>
